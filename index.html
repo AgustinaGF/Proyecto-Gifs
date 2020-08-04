@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto GIF.OS</title>
+    <link rel="shortcut icon" href="/assets/sailorDay.ico" type="image/x-icon" id="icono" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" id="themeDay" href="/css/themeDay.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
+
+    <body>
+        <div class="containerAll">
+            <!-- Header -->
+            <header class="header">
+                <div class="boxNav">
+                    <nav class="bar">Bienvenidos/as a Guifos.com!------Donde los gifs están.//////Número de visitas:12.765.803 </nav>
+                </div>
+            </header>
+            <div class="container">
+                <div class="logo">
+                    <img class="logo1" src="/assets/gifOF_logo.png" alt="logo" />
+                    <div class="buttons">
+                        <div class="button1">
+                            <a class="buttonCreate" href="/html/createGif.html"> Crear Guifos</a>
+                        </div>
+                        <div class="contenedorButton2">
+                            <div id="button2" class="button2">
+                                <label class="chosseOption">Elegir tema</label>
+                                <button class="arrow"> <img class="dropDown" src="/assets/dropdown.svg" alt="flecha" /></button>
+                            </div>
+                            <div class="containerSailors">
+                                <button class="sailorDay">
+                                    <span class="textSailorDay"><span class="underline1">S</span>ailor Day</span> 
+                                </button>
+                                <button class="sailorNight">
+                                    <span class="textSailorNigth"><span class ="underline2">S</span>ailor Night</span> 
+                                </button>
+                            </div>
+                        </div>
+                        <div class="button3">
+                            <a class="buttonGifos" href="/html/createGif.html#sectionMisGifos">
+                                <span class="myGuifos">M</span>is Guifos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- searchBlock -->
+                <div class="searchBlock">
+                    <div class="searchBack">
+                        <div class="search1">Buscar</div>
+                        <div class="backInput">
+                            <input class="text-search" type="text" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…" />
+                            <button class="searchButton" type="button">
+                            <img class="lupa1" src="/assets/lupa_inactive.svg" alt="lupa" />
+                            <img class="imageButtonSearchStyle"  src="/assets/lupa.svg" alt="imageButtonSearchDay" />
+                            <span class="textButton">Buscar</span>
+                    </button>
+                        </div>
+                    </div>
+                    <div class="tagsBlocks"></div>
+                </div>
+                <!-- suggestionBlock -->
+                <div class="suggestionBlock">
+                    <div class="suggestion">
+                        <label class="text-suggestion">Hoy te sugerimos:</label>
+                    </div>
+                    <div class="images"></div>
+                </div>
+                <!-- trendBlock -->
+                <div id="trendBlock" class="trendBlock">
+                    <div class="trends">
+                        <label class="text-trend">Tendencias:</label>
+                    </div>
+                    <div class="imagesTrend"></div>
+                </div>
+            </div>
+        </div>
+        <script src="/javaScript/main.js"></script>
+    </body>
+
+</html>

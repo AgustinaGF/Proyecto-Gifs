@@ -1,0 +1,422 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #110038;
+}
+
+
+/* container */
+
+.logo1:hover {
+    cursor: pointer;
+}
+
+.boxNav {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    box-shadow: 0 1px 0 0 #110038;
+}
+
+.bar {
+    color: #ffff;
+}
+
+.button1 {
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.button1:hover {
+    background-color: #A72CB3;
+    border-width: 0;
+    padding: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px dotted #110038;
+}
+
+.buttonCreate {
+    color: #FFFFFF;
+}
+
+.button2 {
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.button2:hover {
+    background-color: #A72CB3;
+    border-width: 0;
+    padding: 0;
+    cursor: pointer;
+    border: 1px dotted #110038;
+}
+
+.button2:hover button {
+    background-color: #A72CB3;
+    border-width: 0;
+    padding: 0;
+    cursor: pointer;
+    border: 1px dotted #110038;
+}
+
+.containerSailors {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dropDown {
+    filter: invert(100%);
+}
+
+.sailorNight {
+    background: #2E32FB;
+    border: 1px solid rgba(51, 53, 143, 0.20);
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.sailorDay {
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.underline2 {
+    text-decoration: underline;
+}
+
+.textSailorNigth {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.chosseOption {
+    color: #FFFFFF;
+}
+
+.arrow {
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.button3 {
+    color: #FFFFFF;
+}
+
+.button3:hover {
+    border: 1px dotted #FFFFFF;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.button3:active {
+    color: #8F8F8F;
+}
+
+.button3:active .myGuifos {
+    color: #8F8F8F;
+}
+
+.buttonGifos {
+    color: #FFFFFF;
+}
+
+
+/* SearchBlock */
+
+.search1 {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.searchBack {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.text {
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.searchButton {
+    background: #B4B4B4;
+    color: #8F8F8F;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.textButton {
+    color: #8F8F8F;
+    margin-left: 8px;
+}
+
+.lupa1 {
+    background: #B4B4B4;
+    color: #8F8F8F;
+    width: 16 px;
+    height: 16px;
+}
+
+.imageButtonSearchStyle {
+    display: none;
+    width: 16 px;
+    height: 16px;
+    margin-left: 7px;
+}
+
+
+/* blockAutocomplete */
+
+.searchButtonAutocomplete {
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    color: #FFFFFF;
+}
+
+.searchButtonAutocomplete:hover {
+    cursor: pointer;
+}
+
+.searchButton:hover {
+    border: 1px dotted #FFFFFF;
+}
+
+.searchButtonAutocomplete:active {
+    background-color: #A72CB3;
+    border-width: 0;
+    padding: 0;
+    cursor: pointer;
+    border: 1px dotted #110038;
+}
+
+.blockAutocomplete {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.buttonAutocomplete {
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    margin-left: 8px;
+}
+
+.textButtonAutocomplete {
+    color: #FFFFFF;
+}
+
+
+/* Suggestion */
+
+.suggestion {
+    background: #FFFAFE;
+    border: 1px solid #2E32FB;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+
+.hashtag1 {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.buttonVerMas1 {
+    background: #2E32FB;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.buttonVerMas1:hover {
+    background-color: #2124B3;
+    border-width: 0;
+    padding: 0;
+    cursor: pointer;
+    border: 1px dotted #110038;
+}
+
+.imageSuggestion1 {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.hashtag2 {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.buttonVerMas2 {
+    background: #2E32FB;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.hashtag3 {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.buttonVerMas3 {
+    background: #2E32FB;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.hashtag4 {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.buttonVerMas4 {
+    background: #2E32FB;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+}
+
+
+/* trendBlock */
+
+.trends {
+    background: #FFFAFE;
+    border: 1px solid #2E32FB;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+
+.hashtagImage {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    color: #FFFFFF;
+}
+
+
+/* Hover Gif Trending */
+
+.imageTrend:hover {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+}
+
+
+/* HTML CreateGif*/
+
+.titleCreateGif {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.blockCreateGif {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.blockCreateGifNew {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.cancelCreateGif {
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.startCreateGif {
+    background: #2E32FB;
+    border: 1px solid rgba(51, 53, 143, 0.20);
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.startCreateGif:hover {
+    background-color: #2124B3;
+    border-width: 0;
+    padding: 0;
+    cursor: pointer;
+    border: 1px dotted #110038;
+}
+
+.containerMyGuifos {
+    background: #FFFAFE;
+    border: 1px solid #2E32FB;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+
+#containerRecord {
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+#imageCapture {
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF
+}
+
+#buttonCapture {
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+
+/* tercer recuadro de grabacion */
+
+#windowSuccessUpload {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+#containerLastTitle {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.textGifSuccess {
+    color: #110038;
+}
+
+.lastButton {
+    color: #FFFFFF;
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.lastButtonReady {
+    color: #FFFFFF;
+    background: #2E32FB;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+
+/* 4to recuadro de grabacion */
+
+#buttonRepeat {
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#buttonUpload {
+    background: #2E32FB;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#cancelUpload {
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+
+/* section mygifos */
+
+.textMyGif {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.textMisGif {
+    color: #FFFFFF;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Proyecto GIF.OS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="/assets/sailorDay.ico" type="image/x-icon" id="icono" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" id="themeDay" href="/css/themeDay.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header2">
+        <div class="boxNav">
+            <nav class="bar">Bienvenidos/as a Guifos.com!------Donde los gifs están.//////Número de visitas:12.765.803 </nav>
+        </div>
+    </header>
+    <div class="containerCreateGif">
+        <div class="imageCreateGif">
+            <a href="/index.html">
+                <img class="arrowCreateGif" src="/assets/arrow.svg" alt="arrow">
+
+            </a>
+            <img class="logoCreateGif" src="/assets/gifOF_logo.png" alt="logo" />
+        </div>
+        <div class="containerBlockCreateGif" id="containerBlockCreateGifAll">
+
+            <div class="blockCreateGif" id="noHidden">
+
+                <div class="titleCreateGif">
+                    <p id="textCreateGif" class="noHidden">Crear Guifos</p>
+                    <p class="hidden" id="secondTitle">Un chequeo antes de Empezar</p>
+                    <img src="/assets/close.svg" id="closeVideo" class="hidden" alt="iconoDeCerrar">
+                </div>
+                <div id="blockTextCreateGif">
+
+                    <div class="hidden" id="containerRecord">
+                        <img class="imageGif" id="previewGif" src="/assets/loading.gif" alt="previewGif">
+                        <video class="hidden" id="video"></video>
+                        <div id="uploadingContent" class="thirdHidden">
+                            <div class="contentUploading">
+                                <img src="/assets/globe_img.png" alt="image Globe Word" />
+                                <h4>Estamos subiendo tu guifo…</h4>
+                                <div id="progressBar">
+                                    <div id="myBar"></div>
+                                </div>
+                                <p class="timeWaiting"> Tiempo restante: <span class="line-through">38 años</span> algunos minutos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="noHidden">
+                        <div class="windowCreate">
+                            <img class="window" src="/assets/window_img.png" alt="window">
+                            <p class="textCreateGif2"><strong>Aqui podrás crear tus propios guifos</strong></p>
+                        </div>
+                        <div class="listCreateGif">
+                            <p class="textCreateGif3">Crear tu <strong> guifo </strong> es muy facil, graba cualquier imagen con tu cámara y obtén guifos personalizados.Los pasos para crear tu guifo son:
+                            </p>
+                            <ul class="listStepsCreateGif">
+                                <li class="numerOne"><strong>1)</strong> Dar permisos de acceso a la cámara (solo por el tiempo de uso)</li>
+                                <li class="numerTwo"><strong>2)</strong> Capturar tu momento guifo</li>
+                                <li class="numerThree"><strong>3)</strong> Revisar el momento</li>
+                                <li class="numerFour"><strong>4)</strong> Listo para subir y compartir!</li>
+                            </ul>
+                            <p class="textCreateGif4">Quieres comenzar a crear tu <strong> guifo</strong> ahora?</p>
+                            <div class="buttonCreateGif">
+                                <div class="cancelCreateGif">
+                                    <a href="/index.html">
+                                        <span class="textCancel">Cancelar</span>
+                                    </a>
+                                </div>
+                                <button class="startCreateGif">
+                                <span class="textStart">Comenzar</span>
+                            </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="hidden" id="capture">
+                        <button id="imageCapture" class="hidden">
+                            <img src="/assets/camera.svg" id="cameraImage" alt="imageCamera">
+                        </button>
+                        <button id="buttonCapture" class="hidden">Capturar</button>
+                    </div>
+                    <div class="containerTimerOne">
+                        <div class="timer" id="containerTimer">
+                            <p id="captureTimer" class="timer/">00:00:00:00</p>
+                        </div>
+                        <div class="buttonReady">
+                            <button id="imageButtonStop" class="stop">
+                            <img src="/assets/recording.svg" id="imageStop" class="stop" alt="imageRecordin">
+                        </button>
+                            <button id="buttonStopRecord" class="stop">Listo</button>
+                        </div>
+                        <div class="secondHidden" id="blockLoading">
+                            <button class="buttonPlayLoading" type="button">
+                        <img src="/assets/forward.svg" alt="boton de reproduccion de vista previa" />
+                        </button>
+                            <div class="barTimerHidden" id="barTimer">
+                                <div id="twoProgressBar">
+                                    <div id="twoMyBar"></div>
+                                </div>
+                            </div>
+                            <div class="secondHidden" id="containerButtonCapture">
+                                <button type="button" class="repeat" id="buttonRepeat">Repetir Captura</button>
+                                <button type="button" class="secondHidden" id="buttonUpload">Subir Guifo</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thirdHidden" id="buttonUploading">
+                        <button class="cancel" id="cancelUpload"> Cancelar </button>
+                    </div>
+                </div>
+            </div>
+            <div class="fourthHiddenWindow" id="windowSuccessUpload">
+                <div id="containerLastTitle">
+                    <p id="lastTitle" class="">Guifo Subido Con Éxito</p>
+                    <img class="lastClose" src="/assets/close.svg" alt="imgClose">
+
+                </div>
+                <div class="containerSuccessUpload">
+                    <div class="newGContainer">
+                        <img id="newGif" src="/assets/loading.gif" alt="loading">
+                    </div>
+                    <div class="lastText">
+                        <h4 class="textGifSuccess">Guifo subido con éxito</h4>
+                        <button class="lastButton" id="buttonURL">Copiar Enlace Guifo</button>
+                        <button class="lastButton" id="buttonDownload">Descargar Guifo </button>
+                    </div>
+                </div>
+                <div id="buttonReady">
+                    <button class="lastButtonReady" id="buttonReady2">Listo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="misGifos">
+            <div class="logo">
+                <a href="/index.html"><img class="logo1" src="/assets/gifOF_logo.png" alt="logo" /></a>
+                <div class="buttons">
+                    <div class="button1">
+                        <p class="buttonCreate"> Crear Guifos</p>
+                    </div>
+                    <div class="contenedorButton2">
+                        <div id="button2" class="button2">
+                            <label class="chosseOption">Elegir tema</label>
+                            <button class="arrow"> <img class="dropDown" src="/assets/dropdown.svg" alt="flecha" /></button>
+                        </div>
+                        <div class="containerSailors">
+                            <button class="sailorDay">
+                        <span class="textSailorDay"><span class="underline1">S</span>ailor Day</span> 
+                    </button>
+                            <button class="sailorNight">
+                        <span class="textSailorNigth"><span class ="underline2">S</span>ailor Night</span> 
+                    </button>
+                        </div>
+                    </div>
+                    <div class="button3">
+                        <span class="myGuifos">M</span>is Guifos
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerMyGuifos" id="visibleGif">
+            <label class="text-MyGuifos">Mis Guifos</label>
+            <p class="textMisGif">"UPPS... aún no hay gifs guardados!"</p>
+        </div>
+        <div id="containerImageMyGifs" class="imageMyGifs"></div>
+    </div>
+    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+    <script src='/javaScript/createGif.js'></script>
+
+</body>
+
+</html>
